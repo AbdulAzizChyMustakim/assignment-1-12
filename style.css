@@ -4,6 +4,117 @@
     box-sizing: border-box;
 }
 
-h2{
-    color: #007bff;
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: "Inter", sans-serif;
+}
+.btn-hover{
+            background-color: #6200ea;
+            color: white;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 0 rgba(98, 0, 234, 0.7);
+}
+.btn-hover:hover {
+           background-color: #7b1fa2;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(98, 0, 234, 0.7),
+              0 0 25px rgba(98, 0, 234, 0.5);
+        }
+header {
+   height: 100vh;
+  background-image: url('Assets/Hero-bg.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-attachment: fixed; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  
+}
+nav h1{
+     font-family: "Inter", sans-serif;
+     font-weight: 900;
+     font-size: 34px;
+     color: #4E47FF;
+     cursor: pointer;
+}
+nav button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #252432;
+   
+}
+.hero h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color:#252432;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.hero button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+
+/* Action Part */
+.act-container {
+    background-color: #F5F8FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    padding-top: 100px;
+    padding-bottom : 100px;
+}
+.act-container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.act-container p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    margin-bottom: 23px;
+}
+.right-side img{
+    width: 100%;
+    height: 100%;
+    border-radius: 48px;
+   
 }
